@@ -9,7 +9,7 @@ function* fib(max) {
         t = a + b;
         a = b;
         b = t;
-        n ++;
+        n++;
     }
     return a;
 }

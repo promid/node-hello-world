@@ -2,13 +2,7 @@
 
 var s = 'Hello';
 
-function greet(name) {
+export function greet(name) {
     console.log(s + ', ' + name + '!');
 }
-
-module.exports = {
-    haha: {
-        greet: greet
-    }
-};
 
